@@ -1,4 +1,5 @@
-/* Simple fetch wrapper that automatically attaches JWT and handles JSON. */
+/* Simple fetch wrapper that automatically attaches JWT and handles JSON.
+   Note: Prefer REACT_APP_API_BASE. REACT_APP_BACKEND_URL is supported as a legacy alias. */
 
 const API_BASE = process.env.REACT_APP_API_BASE || process.env.REACT_APP_BACKEND_URL || '';
 
